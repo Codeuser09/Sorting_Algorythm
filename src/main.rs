@@ -28,7 +28,7 @@ fn sort_array(unsorted_array: [i32; ARRAY_SIZE]) -> [i32; ARRAY_SIZE] {
     }
     sorted_array
 }
-
+//Just printing the array
 fn print_array(array_to_print: [i32; ARRAY_SIZE]) {
     for i in array_to_print {
         print!(", {i}");
