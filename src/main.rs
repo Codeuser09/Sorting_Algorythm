@@ -10,7 +10,7 @@ fn main() {
     print_array(sorted_array);
     print!("\n Sorted {ARRAY_SIZE} items in total");
 }
-
+//This is the function that sorts the array
 fn sort_array(unsorted_array: [i32; ARRAY_SIZE]) -> [i32; ARRAY_SIZE] {
     let mut sorted_array = unsorted_array.clone();
     let mut swapped;
